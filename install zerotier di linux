@@ -1,0 +1,9 @@
+Cara install zerotier di armbian server stb b860h:
+
+Install :   curl -s https://install.zerotier.com
+ | bash
+
+join network: zerotier-cli join "network_id"
+
+enable service: systemctl enable zerotier-one.service
+restart service: systemctl restart zerotier-one.service
